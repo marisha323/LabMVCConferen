@@ -1,0 +1,59 @@
+﻿
+@{
+}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .stele1
+    {
+        background-image: url("https://vjoy.cc/wp-content/uploads/2019/07/1.jpeg");
+        padding : 50px;
+        font-family: 'Times New Roman', Times, serif;
+        background-size: no-repeat;
+        background-position: center;
+        background-size: cover;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        border-radius: 20px;
+    }
+
+    .contener {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        width: 85%;
+        background-image: url("https://funart.pro/uploads/posts/2021-03/1617041523_45-p-oboi-krasivie-foto-prirodi-52.jpg");
+        padding: 20px;
+        border-radius: 20px;
+        margin: auto;
+    }
+    .stylecolor
+    {
+        color:lime;
+    }
+</style>
+<div class="stele1">
+    <div class="contener">
+        <label class="stylecolor">
+            Надіслана Вами анкета надходить на нашу електронну пошту та сортується за тематикою. Далі матеріали направляються одному з редакторів для перевірки.
+
+            Інформацію надано ресурсом: https://ukrlogos.in.ua/ua_conference.html
+            © ukrlogos.in.ua | All rights reserved | CC BY 4.0
+        </label>
+        <label class="stylecolor">
+            Протягом 2-6 робочих годин редактор здійснює оглядове рецензування (оцінює вашу роботу на відповідність встановленим вимогам, перевіряє чи не містять матеріали плагіат або інформацію, яка може ображати інших людей, здійснює технічне редагування і корректуру).
+
+            Інформацію надано ресурсом: https://ukrlogos.in.ua/ua_conference.html
+            © ukrlogos.in.ua | All rights reserved | CC BY 4.0
+        </label>
+        <form method="get" asp-controller="Home" asp-action="Index">
+            <label>
+                <input type="submit" value="Зарегеструватися" />
+            </label>
+        </form>
+       
+    </div>
+</div>
